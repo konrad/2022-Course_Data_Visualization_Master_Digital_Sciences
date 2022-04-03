@@ -1,0 +1,214 @@
+#+TITLE: Data Visualization (Summer Semester 2022)
+#+SUBTITLE: [[https://digital-sciences.de][Master Digital Sciences]] at [[https://www.th-koeln.de/][TH Köln]]
+#+AUTHOR: Prof. Dr. Konrad U. Förstner
+#+DATE: 2022-04-04
+#+LICENCE: CC-BY
+#+LANGUAGE: en
+#+KEYWORDS: Visualization, TH Köln, Python
+#+HTML_DOCTYPE: html5
+#+EMAIL: foerstner@zbmed.de
+#+OPTIONS: toc:t
+#+OPTIONS: email:t
+#+LATEX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage[nomath]{lmodern}
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./style.css"/>
+
+* House keeping
+** General information
+
+- There are no stupid questions. Please feel free to ask anything at
+  anytime.
+- Mistakes are to be expected, respected, inspected, and corrected.
+- In case you have any disabilities that hamper the usage of the
+  material, the participation in the course or the exam - please
+  contact me.
+- No need to buy any book or other material.
+- Prequires for this course (checked in a survey)
+  - Basic Python coding skills
+  - Basic understanding of the Python library pandas
+  - Basic Jupyter Notebooks
+  - Basic understanding how to use git and Github
+
+** Code of Conduct
+
+- Use welcoming and inclusive language.
+- Be respectful of different viewpoints and experiences.
+- Gracefully accept constructive criticism.
+- Show courtesy and respect towards other community members.
+
+Contact me in case you feel that somebody violates the rules.
+
+(Inspired by the [[https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html][Code of Conduct of The Carpentries]])
+
+** Learning outcomes
+
+In this course fundamental visualization concepts as well as concrete
+skills to represent large data sets are taught.
+
+Participants will gain an basic understanding of the physiology of
+perception and learn to effectively encode information in
+figures. Futhermore, they will be introduced to widely used Python
+plotting libraries to create figures based on openly available data
+sets.
+
+After visiting this course students are able to interprete as well as
+design figures and are capable to visualize large data sets.
+
+** Schedule
+
+- 2022-04-11:
+  - General Introdution
+  - Basic
+  - Homework:
+    - Read chapter 2 "[[https://clauswilke.com/dataviz/aesthetic-mapping.html][Visualizing data: Mapping data onto aesthetics]]"
+      of "Fundamentals of Data Visualization"
+    - Prepare: Figure type that you recieved in the figure type lottery
+- 2022-04-18 - not taking place due to Easter (Ostern)
+- 2022-04-25
+- 2022-05-02
+- 2022-05-09
+- 2022-05-16
+- 2022-05-23
+- 2022-05-30
+- 2022-06-06 - not taking place due to Easter (Ostern) Pentecost/Pfingsten
+- 2022-06-13
+- 2022-06-20
+
+* Introduction into Data Visualizations
+
+  #+CAPTION: [[https://xkcd.com/688/][xkcd - Self-Description]] (CC-BY-NC by Randall Munroe)
+  #+NAME:   fig:xkcd-self-description
+  [[./images/self_description.png]]
+
+  #+CAPTION: [[https://xkcd.com/657/][xkcd - Movie Narrative Charts]] (CC-BY-NC by Randall Munroe)
+  #+NAME:   fig:xkcd-movie-plot
+  [[./images/movie_narrative_charts.png]]
+
+  Can't get enough of cool xkcd visualization - have a look at [[http://www.vislives.com/2011/10/xkcd-visualizations.html][this collection]].
+  
+** When and why are visualization useful?
+
+   - Group exercise [15 min] - discuss:
+     - When are visualization useful?
+     - What are alternatives to visualization?
+     - Which disadvantages can visualization have?
+   - Live demonstration - [[https://en.wikipedia.org/wiki/Anscombe%27s_quartet][Anscombe's quartet]] (see
+     =./code/Anscombes_quartet.ipynb=)
+   
+  
+** Attributes and Aestetics
+
+*** Perception
+
+our five senses
+- sight (stimulus: light)
+- smell (stimulus: chemical substance
+- touch (stimulus: presure / temperatur)
+- taste (stimulus: chemical substance)
+ hearing (stimulus: sound = presure)
+
+=> Data visualisation, Datas sonification
+
+*** Attribues
+
+*** Aestetics
+
+** List of chart types (without claiming completeness)
+
+Group exercise [15 min] - In the group compile a list of chart types
+that you know.
+       
+    - Boxplot
+    - Histogram
+    - Swarmplot
+    - Violin
+    - 1D Density
+    - Ridgeline
+    - Scatterplot
+    - Correlogram
+    - Bubble
+    - Scatter
+    - 2D Density
+    - Heatmap      
+    - Barplot
+    - Radar / Spider
+    - Wordcloud
+    - Parallel
+    - Pie
+    - Donut
+    - Circular Barplot
+    - Treemap
+    - Venn Diagram
+    - Dendrogram
+    - Line chart
+    - Area chart
+    - Map
+    - Hexbin
+    - Chord Diagram
+    - Network
+    - Hive
+    - Sankey
+    - Arc Diagram
+    - Edge Bundling   
+
+Group exercise [15 min] - discuss:
+- Take 3 visualation type and discuss which. Aestetics are used to
+  encode the information.
+
+- Plotting lottery - everybody has to generate a plot
+  - Alternative names
+  - Aestetics used
+  - Potential pitfalls
+  - Code example
+   
+   
+Further collections of visualisation types:
+  - https://datavizcatalogue.com/
+  - https://datavizproject.com/
+  - https://clauswilke.com/dataviz/directory-of-visualizations.html
+    
+* Literature
+
+** Books
+   
+   - [[https://clauswilke.com/dataviz/][Fundamentals of Data Visualization: A Primer on Making
+     Informative and Compelling Figures]], Claus O. Wilke, O'Reilly
+     Media; 1st edition, 2019, ISBN:978-1492031086, available under
+     the CC-BY-NC-ND license
+
+   - Visualization Analysis and Design: Principles, Techniques, and
+     Practice, Tamara Munzner, 2014, ISBN: 978-1466508910
+   
+** Research articles
+
+   - [[http://blogs.nature.com/methagora/2013/07/data-visualization-points-of-view.html][Data visualization: A view of every Points of View column]] in
+     Nature methods
+
+   - Weissgerber TL, Winham SJ, Heinzen EP, Milin-Lazovic JS,
+     Garcia-Valencia O, Bukumiric Z, Savic MD, Garovic VD, Milic
+     NM. Reveal, Don't Conceal: Transforming Data Visualization to
+     Improve Transparency. Circulation. 2019 Oct
+     29;140(18):1506-1518. https://doi.org/10.1161/CIRCULATIONAHA.118.037777
+
+   - Weissgerber TL, Milic NM, Winham SJ, Garovic VD. Beyond bar and
+     line graphs: time for a new data presentation paradigm. PLoS
+     Biol. 2015 Apr 22;13(4):e1002128. 
+     https://doi.org/10.1371/journal.pbio.1002128
+   
+   - How Deceptive are Deceptive Visualizations?: An Empirical
+     Analysis of Common Distortion Techniques
+     https://doi.org/10.1145/2702123.2702608
+   
+   - Graphical Perception: Theory, Experimentation, and Application to
+     the Development of Graphical Methods -
+     https://www.tandfonline.com/doi/abs/10.1080/01621459.1984.10478080
+       
+   - Automating the design of graphical presentations of relational
+     information - https://dl.acm.org/doi/10.1145/22949.22950
+   
+* About me
+
+  You can find a short bio on my [[https://konrad.foerstner.org/][website.]]
+  
+* Contact
+  - Email: foerstner@zbmed.de
