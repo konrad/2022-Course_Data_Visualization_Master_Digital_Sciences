@@ -128,7 +128,6 @@ our five senses
     #+ATTR_HTML: :width 500
     [[./images/Data_encode_visualisation_decode.png]]
 
-
 *** Features/Attribues
 
     Features can be
@@ -155,7 +154,7 @@ our five senses
 
 Group exercise [10 min] - In the group compile a list of chart types
 that you know.
-       
+
     - Boxplot
     - Histogram
     - Swarmplot
@@ -190,15 +189,13 @@ that you know.
     - Edge Bundling   
 
 Group exercise [15 min] - discuss:
-- Take 3 visualation type and discuss which. Aestetics are used to
+- Take 3 visualation type and discuss which aestetics are used to
   encode the information.
 
-- Plotting lottery - everybody has to generate a plot
+- Viusalisation type lottery 
   - Alternative names
   - Aestetics used
   - Potential pitfalls
-  - Code example
-   
    
 Further collections of visualisation types:
   - https://datavizcatalogue.com/
