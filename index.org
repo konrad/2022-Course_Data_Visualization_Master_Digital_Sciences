@@ -280,6 +280,15 @@ Further collections of visualisation types:
      comparative genomics. Genome Res. 2009
      Sep;19(9):1639-45. https://doi.org/10.1101/gr.092759.109
 
+* Packages and tools
+
+  - [[https://seaborn.pydata.org/][seaborn]]
+  - [[https://pandas.pydata.org/][pandas]]
+  - [[https://bokeh.org/][bokeh]]
+  - [[http://circos.ca/][Circos]] (Python alternative [[https://github.com/ponnhide/pyCircos][pyCircos]])
+  - [[Pyveplot][Pyveplot]]
+  - [[https://networkx.org/][NetworkX]]
+   
 * About me
 
   You can find a short bio on my [[https://konrad.foerstner.org/][website.]]
