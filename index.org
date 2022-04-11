@@ -56,7 +56,8 @@ figures and are capable to visualize large data sets.
 
 ** Schedule
 
-- 2022-04-11:
+- 2022-04-04
+   
   - General Introdution
   - Basics of Visualization
   - Tasks until next week:
@@ -66,6 +67,28 @@ figures and are capable to visualize large data sets.
       - Alternative names
       - Aesthetics used
       - Potential pitfalls
+   
+- 2022-04-11:
+  - Housekeeping
+  - Question and repetition
+  - Short introduction of one visualization type by the participants (~ 60 min)
+  - Introduction to [[https://seaborn.pydata.org/][seaborn]] ([[./code/Introduction_into_seaborn.ipynb][Jupyter Notebook]]) using the [[https://github.com/mwaskom/seaborn-data/blob/master/penguins.csv][penguin data set]] (~ 45 min)
+  - Group exercise (pairs) (20 min) - visualizeing other data sets with seaborn using
+    [[https://github.com/mwaskom/seaborn-data/blob/master/penguins.csv][other data set]] in the seaborn collection.
+    - planets.csv (TODO: description of columns)
+    - tips.csv (TODO: description of columns)
+    - titanic.csv (TODO: description of columns)
+    - iris.csv (TODO: description of columns)
+
+  - Tasks until next week:
+    - Please prepare a Jupyter Notebook with examples of the
+      visualisation type that you discussed today. Ideally show
+      different examples for the aestetics used. Please don't only
+      copy and paste but generate own examples. Commit to the
+      dedicated git repo.
+    - Make yourself familiar with the term "chart junk" and find a
+      example in current media (blog, news paper, magazin).
+
 
 - 2022-04-18 - not taking place due to Easter (Ostern)
 - 2022-04-25
