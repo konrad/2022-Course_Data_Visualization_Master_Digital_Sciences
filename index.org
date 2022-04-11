@@ -51,18 +51,22 @@ figures. Futhermore, they will be introduced to widely used Python
 plotting libraries to create figures based on openly available data
 sets.
 
-After visiting this course students are able to interprete as well as
-design figures and are capable to visualize large data sets.
+After the course students are able to interprete as well as design
+figures and are capable to visualize large data sets.
 
 ** Schedule
 
 - 2022-04-11:
   - General Introdution
-  - Basic
-  - Homework:
-    - Read chapter 2 "[[https://clauswilke.com/dataviz/aesthetic-mapping.html][Visualizing data: Mapping data onto aesthetics]]"
-      of "Fundamentals of Data Visualization"
-    - Prepare: Figure type that you recieved in the figure type lottery
+  - Basics of Visualization
+  - Tasks until next week:
+    - Read chapter 2 "[[https://clauswilke.com/dataviz/aesthetic-mapping.html][Visualizing data: Mapping data onto aesthetics]]" of "Fundamentals of Data Visualization"
+    - Install [[https://www.anaconda.com/products/distribution][Anaconda]] ([[https://librarycarpentry.org/lc-python-intro/setup.html][Further instructions]])
+    - Prepare to present you visualization type
+      - Alternative names
+      - Aesthetics used
+      - Potential pitfalls
+
 - 2022-04-18 - not taking place due to Easter (Ostern)
 - 2022-04-25
 - 2022-05-02
@@ -73,6 +77,14 @@ design figures and are capable to visualize large data sets.
 - 2022-06-06 - not taking place due to Easter (Ostern) Pentecost/Pfingsten
 - 2022-06-13
 - 2022-06-20
+
+** Group work
+
+In group exercises choose the following roles (one person can take
+several roles but ideally everyone has a dedicated role):
+- moderator/facilitator
+- time keeper
+- reporter  
 
 * Introduction into Data Visualizations
 
@@ -105,17 +117,43 @@ our five senses
 - smell (stimulus: chemical substance
 - touch (stimulus: presure / temperatur)
 - taste (stimulus: chemical substance)
- hearing (stimulus: sound = presure)
+- hearing (stimulus: sound = presure)
 
 => Data visualisation, Datas sonification
 
-*** Attribues
+*** Encoding / Decoding
 
-*** Aestetics
+    #+CAPTION: Encoding / Decoding
+    #+NAME: fig:Encoding
+    #+ATTR_HTML: :width 500
+    [[./images/Data_encode_visualisation_decode.png]]
 
+
+*** Features/Attribues
+
+    Features can be
+    - categorical / qualitative
+      - Nominal (e.g. cell line, cancer type, eye color, gender)
+      - Ordinal (e.g. very bad, bad, good, very good)
+    - numerical / quantitative
+      - Discrete (e.g. gene length in nucleotides, number cells)
+      - Continuous (e.g. cell length, concentration, relative expression) 
+    
+*** Aesthetics
+    
+    Aesthetics - anciet greek αἴσθησις; 
+
+    #+CAPTION: 
+    #+NAME:   fig:accuarcy
+    https://clauswilke.com/dataviz/aesthetic_mapping_files/figure-html/common-aesthetics-1.png
+
+    #+CAPTION: Mackinlay,  1986, \textit{ACM Transactions on Graphics},  https://doi.org/10.1145/22949.22950
+    #+NAME:   fig:accuarcy    
+    [[./visualisation_accuracy.jpg]]
+    
 ** List of chart types (without claiming completeness)
 
-Group exercise [15 min] - In the group compile a list of chart types
+Group exercise [10 min] - In the group compile a list of chart types
 that you know.
        
     - Boxplot
@@ -202,6 +240,11 @@ Further collections of visualisation types:
    - Graphical Perception: Theory, Experimentation, and Application to
      the Development of Graphical Methods -
      https://www.tandfonline.com/doi/abs/10.1080/01621459.1984.10478080
+
+
+   - Cleveland WS, McGill R. Graphical perception and graphical
+     methods for analyzing scientific data. Science. 1985 Aug
+     30;229(4716):828-33. https://doi.org/10.1126/science.229.4716.828
        
    - Automating the design of graphical presentations of relational
      information - https://dl.acm.org/doi/10.1145/22949.22950
