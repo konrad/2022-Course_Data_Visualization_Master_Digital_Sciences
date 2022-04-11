@@ -236,6 +236,8 @@ Further collections of visualisation types:
 
    - Visualization Analysis and Design: Principles, Techniques, and
      Practice, Tamara Munzner, 2014, ISBN: 978-1466508910
+
+   - The visual display of quantitative information, Edward R. Tufte, 1983
    
 ** Research articles
 
@@ -269,8 +271,6 @@ Further collections of visualisation types:
    - Automating the design of graphical presentations of relational
      information - https://dl.acm.org/doi/10.1145/22949.22950
 
-   - The visual display of quantitative information, Edward R. Tufte, 1983
-   
 * About me
 
   You can find a short bio on my [[https://konrad.foerstner.org/][website.]]
