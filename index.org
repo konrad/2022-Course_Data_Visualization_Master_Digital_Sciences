@@ -89,7 +89,7 @@ figures and are capable to visualize large data sets.
     - Make yourself familiar with the term "chart junk" and find a
       example in current media (blog, news paper, magazin).
 
-
+      
 - 2022-04-18 - not taking place due to Easter (Ostern)
 - 2022-04-25
 - 2022-05-02
@@ -212,7 +212,7 @@ that you know.
     - Edge Bundling   
 
 Group exercise [15 min] - discuss:
-- Take 3 visualation type and discuss which aestetics are used to
+- Take 3 visualation types and discuss which aestetics are used to
   encode the information.
 
 - Viusalisation type lottery 
