@@ -286,7 +286,8 @@ Further collections of visualisation types:
 
 ** Color blindness
 
-   
+   - Around 8% in male and 0.4% of the population have a red-green
+     color deficiency ([[https://pubmed.ncbi.nlm.nih.gov/22472762/][Source]]).
     
 ** Links
      
