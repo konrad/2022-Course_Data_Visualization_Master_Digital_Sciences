@@ -173,12 +173,14 @@ our five senses
     
     Aesthetics - anciet greek αἴσθησις; 
 
-    #+CAPTION: 
+    #+CAPTION: Aesthetics
     #+NAME:   fig:accuarcy
+    #+ATTR_HTML: :width 800
     https://clauswilke.com/dataviz/aesthetic_mapping_files/figure-html/common-aesthetics-1.png
 
     #+CAPTION: Mackinlay,  1986, \textit{ACM Transactions on Graphics},  https://doi.org/10.1145/22949.22950
-    #+NAME:   fig:accuarcy    
+    #+NAME:   fig:accuarcy
+    #+ATTR_HTML: :width 800
     [[./visualisation_accuracy.jpg]]
     
 ** List of chart types (without claiming completeness)
@@ -235,27 +237,34 @@ Further collections of visualisation types:
     
 * Colors and color maps
 
-
     #+CAPTION:  Ishihara color test plate ([[https://en.wikipedia.org/wiki/File:Ishihara_9.svg][Source]]) 
     #+NAME: fig:Encoding
-    #+ATTR_HTML: :width 500
+    #+ATTR_HTML: :width 800
     [[./images/1024px-Ishihara_9.svg.png]]
 
     #+CAPTION: Context matters
     #+NAME: fig:Encoding
-    #+ATTR_HTML: :width 500
+    #+ATTR_HTML: :width 800
     [[./images/color_perception_dependency_grayscale.png]]
 
 
     #+CAPTION: Colors vs. shapes
     #+NAME: fig:Encoding
-    #+ATTR_HTML: :width 500    
+    #+ATTR_HTML: :width 800    
     [[./images/Color_vs_Shape.png]]
 
     #+CAPTION: [[https://commons.wikimedia.org/wiki/File:World_map_of_total_confirmed_COVID-19_cases_per_million_people.png][Source]] (CC-BY [[https://en.wikipedia.org/wiki/Our_World_In_Data][Our World in Data]])
     #+NAME: fig:Encoding
-    #+ATTR_HTML: :width 500
+    #+ATTR_HTML: :width 800
     [[./images/Word_map_COVID-19_cases.png]]
+
+** The three basic color appearance parameters 
+
+(according to Albert Henry Munsell)
+
+- Hue (red, orange, yellow, green, blue, violet)
+- Lightness (black to white)
+- Saturation (aka chroma or intensity; )
     
 ** Colormaps
   - Qualitative
@@ -264,12 +273,13 @@ Further collections of visualisation types:
   - Cyclic
     
 ** Links
-- https://colorbrewer2.org
-- https://seaborn.pydata.org/tutorial/color_palettes.html
-- https://matplotlib.org/stable/tutorials/colors/colormaps.html  
-- http://ccom.unh.edu/sites/default/files/publications/Ware_1988_CGA_Color_sequences_univariate_maps.pdf
-- http://www.kennethmoreland.com/color-maps/ColorMapsExpanded.pdf
-- https://earthobservatory.nasa.gov/blogs/elegantfigures/2013/08/05/subtleties-of-color-part-1-of-6/  
+     
+- [[https://colorbrewer2.org][Color Brewer 2.0]]
+- [[https://matplotlib.org/3.5.0/tutorials/colors/colormaps.html][Choosing Colormaps in Matplotlib]]
+- [[https://seaborn.pydata.org/tutorial/color_palettes.html][seborn - Choosing color palettes]]
+- [[http://ccom.unh.edu/sites/default/files/publications/Ware_1988_CGA_Color_sequences_univariate_maps.pdf][Color Sequences for Univariate Maps: Theory, Experiments, and Principles]]
+- [[http://www.kennethmoreland.com/color-maps/ColorMapsExpanded.pdf][Diverging Color Maps for Scientific Visualization]]
+- [[https://earthobservatory.nasa.gov/blogs/elegantfigures/2013/08/05/subtleties-of-color-part-1-of-6/][NASA - Subtleties of Color]]  
 
 * Chart Junk
 
