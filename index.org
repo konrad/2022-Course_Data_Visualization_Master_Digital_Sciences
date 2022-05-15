@@ -96,12 +96,16 @@ figures and are capable to visualize large data sets.
   - Group discussion (15 min): What are strength and weaknesses if
     you encode information in colors. What has to be kept in mind.
   
-- 2022-05-02
-- 2022-05-09
+- 2022-05-02 (canceled)
+- 2022-05-09 
+
+  - Animations and Interactions
+  
 - 2022-05-16
+  
 - 2022-05-23
 - 2022-05-30
-- 2022-06-06 - not taking place due to Easter (Ostern) Pentecost/Pfingsten
+- 2022-06-06 - not taking place due to Pentecost/Pfingsten
 - 2022-06-13
 - 2022-06-20
 
