@@ -100,7 +100,16 @@ figures and are capable to visualize large data sets.
 - 2022-05-09 
 
   - Animations and Interactions
-  
+  - Discussion: Why interactions? What are advantage and
+    disadvantages?
+  - Excercise (bokeh)
+    - the penguin data set https://github.com/mwaskom/seaborn-data/blob/master/penguins.csv
+      https://raw.githubusercontent.com/mwaskom/seaborn-data/master/penguins.csv
+    - https://docs.bokeh.org/en/latest/docs/user_guide/plotting.html
+    - https://docs.bokeh.org/en/latest/docs/user_guide/data.html
+  - Discussion of potential Project
+  - Tasks until next week: take a data set and visualize it with bokeh
+
 - 2022-05-16
   
 - 2022-05-23
@@ -121,10 +130,12 @@ several roles but ideally everyone has a dedicated role):
 
   #+CAPTION: [[https://xkcd.com/688/][xkcd - Self-Description]] (CC-BY-NC by Randall Munroe)
   #+NAME:   fig:xkcd-self-description
+  #+ATTR_HTML: :width 800
   [[./images/self_description.png]]
 
   #+CAPTION: [[https://xkcd.com/657/][xkcd - Movie Narrative Charts]] (CC-BY-NC by Randall Munroe)
   #+NAME:   fig:xkcd-movie-plot
+  #+ATTR_HTML: :width 800
   [[./images/movie_narrative_charts.png]]
 
   Can't get enough of cool xkcd visualization - have a look at [[http://www.vislives.com/2011/10/xkcd-visualizations.html][this collection]].
@@ -156,7 +167,7 @@ our five senses
 
     #+CAPTION: Encoding / Decoding
     #+NAME: fig:Encoding
-    #+ATTR_HTML: :width 500
+    #+ATTR_HTML: :width 800
     [[./images/Data_encode_visualisation_decode.png]]
 
 *** Features/Attribues
@@ -267,10 +278,15 @@ Further collections of visualisation types:
 - Saturation (aka chroma or intensity; )
     
 ** Colormaps
-  - Qualitative
-  - Sequential
-  - Diverging
-  - Cyclic
+   
+  - Qualitative/categorical - for mapping categorical feature to colors
+  - Sequential - for quantitave, ordinal data
+  - Diverging - For numerical data that have a midpoint (e.g. range from -5 to 5)
+  - (Cyclic)
+
+** Color blindness
+
+   
     
 ** Links
      
@@ -304,8 +320,23 @@ Further collections of visualisation types:
   variation in the numbers represented”, and the data–ink ratio as the
   ratio of the data-ink over the total ink used in a graphic [40].
   #+end_quote
-  
-  
+
+
+* Animation and Interaction
+
+** Advantages and disadvantages
+
+Advantages
+- 
+
+Disadvantages
+- more technological dependency then a simple image
+
+** Examples
+
+   - [[https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1][GapMinder Bubble Plot of World Population]]
+   - Video: [[https://www.ted.com/talks/hans_rosling_the_best_stats_you_ve_ever_seen?language=en]["The best stats you've ever seen"]] (Hans Rosling)
+
 * Literature
 
 ** Books
@@ -362,7 +393,7 @@ Further collections of visualisation types:
 
    - "Diverging Color Maps for Scientific Visualization." Kenneth
      Moreland. In Proceedings of the 5th International Symposium on
-     Visual Computing, December 2009. DOI 10.1007/978-3-642-10520-3_9.
+     Visual Computing, December 2009. https://doi.org/10.1007/978-3-642-10520-3_9.
 
    - C. Brewer, Guidelines for Selecting Colors for Diverging Schemes
      on Maps, The Cartographic Journal, 18 Jul 2013,
@@ -377,7 +408,16 @@ Further collections of visualisation types:
      Perspectives on Chartjunk," 2020 IEEE Visualization Conference
      (VIS), 2020, pp. 211-215,
      https://doi.org/10.1109/VIS47514.2020.00049.
+
+   - "How Not to Lie with Visualization", Bernice E. Rogowitz, Lloyd
+     A. Treinish and Steve Bryson, Computers in Physics 10, 268
+     (1996); https://doi.org/10.1063/1.4822401
    
+
+* Further links
+
+  - [[https://www.csc2.ncsu.edu/faculty/healey/PP/index.html][Perception in Visualization]], Christopher G. Healey Department of
+    Computer Science, North Carolina State University
    
 * Packages and tools
 
