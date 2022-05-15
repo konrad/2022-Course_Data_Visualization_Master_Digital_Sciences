@@ -241,10 +241,10 @@ Further collections of visualisation types:
     #+ATTR_HTML: :width 500
     [[./images/1024px-Ishihara_9.svg.png]]
 
-    #+CAPTION: Context matters (by Ware)
+    #+CAPTION: Context matters
     #+NAME: fig:Encoding
     #+ATTR_HTML: :width 500
-    [[./images/gray_box_on_differen_background.png]]
+    [[./images/color_perception_dependency_grayscale.png]]
 
 
     #+CAPTION: Colors vs. shapes ([[https://seaborn.pydata.org/tutorial/color_palettes.html][Source]])
@@ -252,25 +252,24 @@ Further collections of visualisation types:
     #+ATTR_HTML: :width 500    
     [[./images/color_palettes_9_0.png]]
 
-    #+CAPTION: [[https://commons.wikimedia.org/wiki/File:World_map_of_total_confirmed_COVID-19_cases_per_million_people.png][Source]]
+    #+CAPTION: [[https://commons.wikimedia.org/wiki/File:World_map_of_total_confirmed_COVID-19_cases_per_million_people.png][Source]] (CC-BY [[https://en.wikipedia.org/wiki/Our_World_In_Data][Our World in Data]])
     #+NAME: fig:Encoding
     #+ATTR_HTML: :width 500
     [[./images/Word_map_COVID-19_cases.png]]
     
-- Colormaps
+** Colormaps
   - Qualitative
   - Sequential
   - Diverging
   - Cyclic
     
-Links:
-- https://colorbrewer2.org    
+** Links
+- https://colorbrewer2.org
 - https://seaborn.pydata.org/tutorial/color_palettes.html
 - https://matplotlib.org/stable/tutorials/colors/colormaps.html  
 - http://ccom.unh.edu/sites/default/files/publications/Ware_1988_CGA_Color_sequences_univariate_maps.pdf
 - http://www.kennethmoreland.com/color-maps/ColorMapsExpanded.pdf
 - https://earthobservatory.nasa.gov/blogs/elegantfigures/2013/08/05/subtleties-of-color-part-1-of-6/  
-
 
 * Chart Junk
 
