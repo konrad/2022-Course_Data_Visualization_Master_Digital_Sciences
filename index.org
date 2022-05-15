@@ -92,6 +92,10 @@ figures and are capable to visualize large data sets.
       
 - 2022-04-18 - not taking place due to Easter (Ostern)
 - 2022-04-25
+  - Presentation of the implemented visualization (~ 45 min)
+  - Group discussion (15 min): What are strength and weaknesses if
+    you encode information in colors. What has to be kept in mind.
+  
 - 2022-05-02
 - 2022-05-09
 - 2022-05-16
@@ -225,6 +229,70 @@ Further collections of visualisation types:
   - https://datavizproject.com/
   - https://clauswilke.com/dataviz/directory-of-visualizations.html
     
+* Colors and color maps
+
+
+    #+CAPTION:  Ishihara color test plate ([[https://en.wikipedia.org/wiki/File:Ishihara_9.svg][Source]]) 
+    #+NAME: fig:Encoding
+    #+ATTR_HTML: :width 500
+    [[./images/1024px-Ishihara_9.svg.png]]
+
+    #+CAPTION: Context matters (by Ware)
+    #+NAME: fig:Encoding
+    #+ATTR_HTML: :width 500
+    [[./images/gray_box_on_differen_background.png]]
+
+
+    #+CAPTION: Colors vs. shapes ([[https://seaborn.pydata.org/tutorial/color_palettes.html][Source]])
+    #+NAME: fig:Encoding
+    #+ATTR_HTML: :width 500    
+    [[./images/color_palettes_9_0.png]]
+
+    #+CAPTION: [[https://commons.wikimedia.org/wiki/File:World_map_of_total_confirmed_COVID-19_cases_per_million_people.png][Source]]
+    #+NAME: fig:Encoding
+    #+ATTR_HTML: :width 500
+    [[./images/Word_map_COVID-19_cases.png]]
+    
+- Colormaps
+  - Qualitative
+  - Sequential
+  - Diverging
+  - Cyclic
+    
+Links:
+- https://colorbrewer2.org    
+- https://seaborn.pydata.org/tutorial/color_palettes.html
+- https://matplotlib.org/stable/tutorials/colors/colormaps.html  
+- http://ccom.unh.edu/sites/default/files/publications/Ware_1988_CGA_Color_sequences_univariate_maps.pdf
+- http://www.kennethmoreland.com/color-maps/ColorMapsExpanded.pdf
+- https://earthobservatory.nasa.gov/blogs/elegantfigures/2013/08/05/subtleties-of-color-part-1-of-6/  
+
+
+* Chart Junk
+
+  #+CAPTION: "The Visual Display of Quantitative Information", Tufte, 1983
+  #+begin_quote
+  The interior decoration of graphics generates a lot of ink that does
+  not tell the viewer anything new. The purpose of decoration
+  varies—to make the graphic appear more scientific and precise, to
+  enliven the display, to give the designer an opportunity to exercise
+  artistic skills. Regardless of its cause, it is all non-data-ink or
+  redundant data-ink, and it is often chartjunk.
+  #+end_quote
+
+
+  #+CAPTION: Data Visualization Practitioners’ Perspectives on Chartjunk
+  #+begin_quote
+  Tufte is credited with coining the term chartjunk in his 1983 book
+  The Visual Display of Quantitative Information [40]. He defined it
+  as “ink that does not tell the viewer anything new” and “non-data-ink
+  or redundant data-ink”. Tufte defined data-ink as “the non-erasable
+  core of a graphic, the non-redundant ink arranged in response to
+  variation in the numbers represented”, and the data–ink ratio as the
+  ratio of the data-ink over the total ink used in a graphic [40].
+  #+end_quote
+  
+  
 * Literature
 
 ** Books
@@ -263,7 +331,6 @@ Further collections of visualisation types:
      the Development of Graphical Methods -
      https://www.tandfonline.com/doi/abs/10.1080/01621459.1984.10478080
 
-
    - Cleveland WS, McGill R. Graphical perception and graphical
      methods for analyzing scientific data. Science. 1985 Aug
      30;229(4716):828-33. https://doi.org/10.1126/science.229.4716.828
@@ -280,13 +347,32 @@ Further collections of visualisation types:
      comparative genomics. Genome Res. 2009
      Sep;19(9):1639-45. https://doi.org/10.1101/gr.092759.109
 
+   - "Diverging Color Maps for Scientific Visualization." Kenneth
+     Moreland. In Proceedings of the 5th International Symposium on
+     Visual Computing, December 2009. DOI 10.1007/978-3-642-10520-3_9.
+
+   - C. Brewer, Guidelines for Selecting Colors for Diverging Schemes
+     on Maps, The Cartographic Journal, 18 Jul 2013,
+     https://doi.org/10.1179/caj.1996.33.2.79
+
+   - C. Ware, Color sequences for univariate maps: theory, experiments
+     and principles, in IEEE Computer Graphics and Applications,
+     vol. 8, no. 5, pp. 41-49, Sept. 1988,
+     https://doi.org/10.1109/38.7760
+
+   - P. Parsons and P. Shukla, "Data Visualization Practitioners’
+     Perspectives on Chartjunk," 2020 IEEE Visualization Conference
+     (VIS), 2020, pp. 211-215,
+     https://doi.org/10.1109/VIS47514.2020.00049.
+   
+   
 * Packages and tools
 
   - [[https://seaborn.pydata.org/][seaborn]]
   - [[https://pandas.pydata.org/][pandas]]
   - [[https://bokeh.org/][bokeh]]
   - [[http://circos.ca/][Circos]] (Python alternative [[https://github.com/ponnhide/pyCircos][pyCircos]])
-  - [[Pyveplot][Pyveplot]]
+  - [[https://gitlab.com/rgarcia-herrera/pyveplot][Pyveplot]]
   - [[https://networkx.org/][NetworkX]]
    
 * About me
