@@ -247,10 +247,10 @@ Further collections of visualisation types:
     [[./images/color_perception_dependency_grayscale.png]]
 
 
-    #+CAPTION: Colors vs. shapes ([[https://seaborn.pydata.org/tutorial/color_palettes.html][Source]])
+    #+CAPTION: Colors vs. shapes
     #+NAME: fig:Encoding
     #+ATTR_HTML: :width 500    
-    [[./images/color_palettes_9_0.png]]
+    [[./images/Color_vs_Shape.png]]
 
     #+CAPTION: [[https://commons.wikimedia.org/wiki/File:World_map_of_total_confirmed_COVID-19_cases_per_million_people.png][Source]] (CC-BY [[https://en.wikipedia.org/wiki/Our_World_In_Data][Our World in Data]])
     #+NAME: fig:Encoding
