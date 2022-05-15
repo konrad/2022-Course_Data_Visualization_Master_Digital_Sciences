@@ -6,4 +6,4 @@ Sciences](https://digital-sciences.de) at
 
 
 Run `make html` to generate a HTML version (main target) or `make pdf`
-to generate a PDF file of the org-mode file.
+to generate a PDF file of the [org-mode file](./index.org).
