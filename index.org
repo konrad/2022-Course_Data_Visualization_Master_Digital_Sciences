@@ -266,18 +266,18 @@ Further collections of visualisation types:
 
     #+CAPTION:  Ishihara color test plate ([[https://en.wikipedia.org/wiki/File:Ishihara_9.svg][Source]]) 
     #+NAME: fig:Encoding
-    #+ATTR_HTML: :width 800
+    #+ATTR_HTML: :width 600
     [[./images/1024px-Ishihara_9.svg.png]]
 
     #+CAPTION: Context matters
     #+NAME: fig:Encoding
-    #+ATTR_HTML: :width 800
+    #+ATTR_HTML: :width 600
     [[./images/color_perception_dependency_grayscale.png]]
 
 
     #+CAPTION: Colors vs. shapes
     #+NAME: fig:Encoding
-    #+ATTR_HTML: :width 800    
+    #+ATTR_HTML: :width 600
     [[./images/Color_vs_Shape.png]]
 
     #+CAPTION: [[https://commons.wikimedia.org/wiki/File:World_map_of_total_confirmed_COVID-19_cases_per_million_people.png][Source]] (CC-BY [[https://en.wikipedia.org/wiki/Our_World_In_Data][Our World in Data]])
