@@ -111,12 +111,28 @@ figures and are capable to visualize large data sets.
   - Tasks until next week: take a data set and visualize it with bokeh
 
 - 2022-05-16
-  
+  - Tiny paper discussion of the [[https://protocolsmethods.springernature.com/posts/43650-data-visualization-a-view-of-every-points-of-view-column][Points of View]] articles in /Nature Methods/. 
 - 2022-05-23
-- 2022-05-30
+  - Developing the plans for the visualization projects
+    - What do you want to achive? (Title of the project)
+    - Which data set(s) do you want to use?
+    - Which tools/libraries do you want to use?
+    - Generate a rought time plant with the working packages.
+    - Set up a repository at GitHub with the following pattern:
+      `DS\under{}Data\under{}Visualisation\under{}2022\under{}Firstname\under{}Lastname`
+  
+- 2022-05-24 (Bonus)
+  - [[http://biovis.net/2022/meetup/2022/05/08/third-meetup.html][Talk by Martin Krzywinski]] as part of the Online meetup of the
+    BioVis community ([[https://www.youtube.com/watch?v=_YGmfsKL8N8][recording]]).
+  
+- 2022-05-30:
+  - Reflection on the talk by Martin Krzywinski
+  - Working on the projects
 - 2022-06-06 - not taking place due to Pentecost/Pfingsten
 - 2022-06-13
+  - Working on the projects
 - 2022-06-20
+  - Project presentations
 
 ** Group work
 
