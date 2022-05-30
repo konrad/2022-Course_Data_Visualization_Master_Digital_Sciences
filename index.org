@@ -354,6 +354,39 @@ Disadvantages
    - [[https://www.gapminder.org/tools/#$chart-type=bubbles&url=v1][GapMinder Bubble Plot of World Population]]
    - Video: [[https://www.ted.com/talks/hans_rosling_the_best_stats_you_ve_ever_seen?language=en]["The best stats you've ever seen"]] (Hans Rosling)
 
+
+* Data visualization project
+
+The project should give you the chance to apply the learnt skills and
+reflect the outcomes. It can be can be conducted individually or in
+groups of two.
+  
+- *Code*
+  - Git Repo with the code of the project - name schema:
+    `DS\under{}Data\under{}Visualization\under{}2022\under{}Firstname\under{}Lastname`
+  - Should contain a `README.md` file that describes the project
+    briefly
+  - Ideally use an Open Source License ([OSI](https://opensource.org/)
+    compliant) e.g. [[https://choosealicense.com/licenses/mit/][MIT License]] ([[https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository][further info on GitHub]])
+  - can be public or private (in the later case invite user `konrad`)
+- *Presentation*
+  - In the last session (2022-06-20)  
+  - 10 min presentation + 5 min questions/answers
+  - Free mode - either slides, walk through the repo, demo or
+    combinations
+- *Report*
+  - Deadline July 4th, 18:00
+  - Submission via Illias
+  - Volume: 5,000 - 7,000 characters
+  - In group projects each group member has to write an individual
+    report.
+  - Should include
+    - Motivation
+    - Applied technologies and implementation
+    - Reason why which approach was used
+    - Discussion and conclusion
+    - References
+   
 * Literature
 
 ** Books
