@@ -205,10 +205,10 @@ our five senses
     #+ATTR_HTML: :width 800
     https://clauswilke.com/dataviz/aesthetic_mapping_files/figure-html/common-aesthetics-1.png
 
-    #+CAPTION: Mackinlay,  1986, \textit{ACM Transactions on Graphics},  https://doi.org/10.1145/22949.22950
+    #+CAPTION: based on Mackinlay, 1986, /ACM Transactions on Graphics/,  https://doi.org/10.1145/22949.22950
     #+NAME:   fig:accuarcy
     #+ATTR_HTML: :width 800
-    [[./visualisation_accuracy.jpg]]
+    [[./images/Aesthetics_and_accuracy.png]]
     
 ** List of chart types (without claiming completeness)
 
