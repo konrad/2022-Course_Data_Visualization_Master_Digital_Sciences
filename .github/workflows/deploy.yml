@@ -1,0 +1,14 @@
+name: Deploy HTML version to GitHub page:
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: org-mode to HTML
+      run: |
+        apt-get install emacs
+        emacs index.org --batch -f org-html-export-to-html --kill
+	
