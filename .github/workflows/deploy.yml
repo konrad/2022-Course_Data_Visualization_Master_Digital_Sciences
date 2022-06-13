@@ -27,3 +27,6 @@ jobs:
         with:
           publish_dir: ./public
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: List files
+        run: ls * ; ls ./public
