@@ -1,4 +1,4 @@
-name: Deploy HTML version to GitHub page:
+name: Deploy HTML version to GitHub page
 on:
   push:
     branches: [ main ]
