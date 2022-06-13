@@ -8,6 +8,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: org-mode to HTML
-      run:
-        - apt-get install emacs
-        - emacs index.org --batch -f org-html-export-to-html --kill
+    - run: apt-get install emacs
+    - run: emacs index.org --batch -f org-html-export-to-html --kill 
