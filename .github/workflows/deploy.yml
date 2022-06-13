@@ -1,7 +1,7 @@
 name: Deploy HTML version to GitHub page
 on: [push]
 jobs:
-  Org-mode to HTML:
+  Org-mode-to-HTML:
     runs-on: ubuntu-latest
     steps:
       - run: apt-get install emacs
