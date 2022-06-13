@@ -1,5 +1,7 @@
 name: Deploy HTML version to GitHub page
 on: [push]
+permissions:
+  contents: write
 jobs:
   Org-mode-to-HTML:
     runs-on: ubuntu-latest
