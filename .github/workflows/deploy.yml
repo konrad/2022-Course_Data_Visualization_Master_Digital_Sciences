@@ -4,5 +4,5 @@ jobs:
   Org-mode-to-HTML:
     runs-on: ubuntu-latest
     steps:
-      - run: apt-get install emacs
+      - run: sudo apt-get install emacs
       - run: emacs index.org --batch -f org-html-export-to-html --kill
