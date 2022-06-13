@@ -6,3 +6,8 @@ jobs:
     steps:
       - run: sudo apt-get install emacs
       - run: emacs index.org --batch -f org-html-export-to-html --kill
+  Publish-HTML:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Emacs
+        run: sudo apt-get install emacs
