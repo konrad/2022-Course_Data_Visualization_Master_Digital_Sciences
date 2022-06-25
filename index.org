@@ -343,10 +343,14 @@ Further collections of visualisation types:
 ** Advantages and disadvantages
 
 Advantages
-- 
+- detailed / additional can be included and displayed if needed useful
+- possibility to include another dimension e.g. time
+- easier switch between overview and detail view
+- viewer can choose level of details  
 
 Disadvantages
 - more technological dependency then a simple image
+- reduced accessiblity
 
 ** Examples
 
